@@ -3,7 +3,7 @@
 ## Caveats
 
 - The MAGAOX_ROLE environment variable for this demo is ```gauss```
-  - The contents of  ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt are:
+  - The contents of  ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt``` are:
 ```
 aaaa gausswait2
 bbbb gausswait
