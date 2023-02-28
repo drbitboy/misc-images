@@ -27,7 +27,6 @@ stop gausswait
     - Arguments \$1 and \$2 are -n and 1, and are ignored
 
 ## Startup
-
 ### Step 1
 ![00startup](zzimages/00startup.png)
 ### Step 2
@@ -37,23 +36,34 @@ stop gausswait
 
 ## Uncontrolled Hexbeater crash
 
+### Step 1
 ![02uncontrolled-hexbeater-crash](zzimages/02uncontrolled-hexbeater-crash.png)
+### Step 2
 ![03uncontrolled-hexbeater-crash](zzimages/03uncontrolled-hexbeater-crash.png)
 
 ## Stop and disable Hexbeater
 
+### Step 1
 ![04stop-and-disable-hexbeater](zzimages/04stop-and-disable-hexbeater.png)
+### Step 2
 ![05stop-and-disable-hexbeater](zzimages/05stop-and-disable-hexbeater.png)
 
 ## Stop and disable all Hexbeaters
 
+### Step 1
 ![06stop-and-disable-all-hexbeaters](zzimages/06stop-and-disable-all-hexbeaters.png)
+### Step 2
 ![07stop-and-disable-all-hexbeaters](zzimages/07stop-and-disable-all-hexbeaters.png)
+### Step 3
 ![08stop-and-disable-all-hexbeaters](zzimages/08stop-and-disable-all-hexbeaters.png)
+### Step 4
 ![09stop-and-disable-all-hexbeaters](zzimages/09stop-and-disable-all-hexbeaters.png)
 
 ## Uncontrolled resurrector_indi crash
 
+### Step 1
 ![10uncontrolled-resurrector_indi-crash](zzimages/10uncontrolled-resurrector_indi-crash.png)
+### Step 2
 ![11uncontrolled-resurrector_indi-crash](zzimages/11uncontrolled-resurrector_indi-crash.png)
+### Step 3
 ![12uncontrolled-resurrector_indi-crash](zzimages/12uncontrolled-resurrector_indi-crash.png)
