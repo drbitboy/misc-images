@@ -4,11 +4,11 @@
 
 - The MAGAOX_ROLE environment variable for this demo is ```gauss```
   - The contents of  ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt are:
-
-    aaaa gausswait2
-    bbbb gausswait
-    stop gausswait
-
+```
+aaaa gausswait2
+bbbb gausswait
+stop gausswait
+```
 - "INDI driver" devices are actually test application gausswait:
   - The gausswait.cpp application resides in ```/apps/resurrector/test/```
   - The gausswait executable binaries reside in ```/opt/MagAOX/bin/``` as hard-links gausswait and gauss
