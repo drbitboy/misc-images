@@ -34,6 +34,8 @@ usage: [MAGAOX_ROLE=ROLE] resuctrl [-h|--help] [-r ROLE|--role ROLE] \
 
 MagAO-X Process Control
 
+2023-02-28 - BTCarcich - Updated to use resurrector_indi framework
+
 Usage:
 
     resuctrl startup [--all]
@@ -52,13 +54,14 @@ Usage:
         - disable and stop PROCNAME processes in proclist
 
     resuctrl defib --all|PROCNAME[ [PROCNAME ...]]
-        - show status and last few log lines for each process
+        - declare to resurrector that PROCNAME processes have expired,
+          so they will be restarted by resurrector_indo
 
     resuctrl peek --all|PROCNAME [PROCNAME ...]
-        - show status and last few log lines for each process
+        - show status and last few log lines (via logdump) for each process
 
     resuctrl status --all|PROCNAME [PROCNAME ...]
-        - show status and last few log lines for each process
+        - show status for each process
 
 positional arguments:
   {startup,shutdown,restart,start,stop,defib,peek,status}
@@ -70,8 +73,6 @@ proclist is contents of file::
 optional arguments:
   -h, --help            show this help message and exit
   -r ROLE, --role ROLE  Specify role to read proclist for (default:gauss)
-
-[31m(B[m
 ```
 
 ## Startup
