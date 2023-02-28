@@ -26,6 +26,53 @@ stop gausswait
     - The third argument \$3 to the logdump command is the "INDI driver" device name, from the first column of ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt```
     - Arguments \$1 and \$2 are -n and 1, and are ignored
 - Refer to the turquoise annotations in the images below for more detail
+- Refer to the turquoise annotations in the images below for more detail
+```
+usage: [MAGAOX_ROLE=ROLE] resuctrl [-h|--help] [-r ROLE|--role ROLE] \
+             startup|shutdown|restart|start|stop|defib|peek|status \
+             [PROCNAME[ PROCNAME[ ...]]]
+
+MagAO-X Process Control
+
+Usage:
+
+    resuctrl startup [--all]
+        - startup resurrector_indi and all processes in proclist
+
+    resuctrl shutdown [--all]
+        - shutdown all processes including resurrector_indi
+
+    resuctrl restart
+        - have resurrector_indi shutdown then startup each running process
+
+    resuctrl start PROCNAME[ PROCNAME[ ...]]
+        - enable and start PROCNAME processes in proclist
+
+    resuctrl stop --all|PROCNAME[ PROCNAME[ ...]]
+        - disable and stop PROCNAME processes in proclist
+
+    resuctrl defib --all|PROCNAME[ [PROCNAME ...]]
+        - show status and last few log lines for each process
+
+    resuctrl peek --all|PROCNAME [PROCNAME ...]
+        - show status and last few log lines for each process
+
+    resuctrl status --all|PROCNAME [PROCNAME ...]
+        - show status and last few log lines for each process
+
+positional arguments:
+  {startup,shutdown,restart,start,stop,defib,peek,status}
+                        verb for action to take
+
+proclist is contents of file::
+  /opt/MagAOX/config/proclist_gauss.txt
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r ROLE, --role ROLE  Specify role to read proclist for (default:gauss)
+
+[31m(B[m
+```
 
 ## Startup
 
