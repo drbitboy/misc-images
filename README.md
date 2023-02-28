@@ -21,8 +21,9 @@ stop gausswait
       - So roughly 1 in 300 times the resurrector will think a Hexbeater's Hexbeat has expired and will restart it
 - The ```logdump``` command for this demo, used by the ```peek``` verb of ```resuctrl```, has been hijacked by a bash script in ~/bin/
   - which script is a wrapper for ```tail -n 10 /opt/MagAOX/sys/$3/outputs```
-    - see comment above regarding STDOUT and STDERR
-    - The third argument, \$3, to the logdump command is the "INDI driver" device name, from the first column of ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt
+    - See comment above regarding STDOUT and STDERR
+  - The logdump command in the ```peek``` verb is executed as ```logdump -n 1 device-name```
+    - The third argument to the logdump command is the "INDI driver" device name, from the first column of ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt```
     - Arguments \$1 and \$2 are -n and 1, and are ignored
 
 ## Startup
