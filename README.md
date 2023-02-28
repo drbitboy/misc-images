@@ -28,8 +28,11 @@ stop gausswait
 
 ## Startup
 
+### Step 1
 ![00startup](zzimages/00startup.png)
+### Step 2
 ![00startup](zzimages/00startup.png)
+### Step 3
 ![01startup](zzimages/01startup.png)
 
 ## Uncontrolled Hexbeater crash
