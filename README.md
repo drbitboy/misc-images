@@ -1,6 +1,6 @@
 #Resurrector demos
 
-## Caveats
+## Caveats and Notes
 
 - The MAGAOX_ROLE environment variable for this demo is ```gauss```
   - The contents of  ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt``` are:
@@ -25,6 +25,7 @@ stop gausswait
   - The logdump command in the ```peek``` verb is executed as ```logdump -n 1 device-name```
     - The third argument \$3 to the logdump command is the "INDI driver" device name, from the first column of ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt```
     - Arguments \$1 and \$2 are -n and 1, and are ignored
+- Refer to the turquoise annotations in the images below for more detail
 
 ## Startup
 
