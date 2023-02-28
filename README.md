@@ -26,7 +26,7 @@ stop gausswait
     - The third argument \$3 to the logdump command is the "INDI driver" device name, from the first column of ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt```
     - Arguments \$1 and \$2 are -n and 1, and are ignored
 - Refer to the turquoise annotations in the images below for more detail
-- Refer to the turquoise annotations in the images below for more detail
+- Usage/help text from resuctrl (current ca. 2023-02-28):
 ```
 usage: [MAGAOX_ROLE=ROLE] resuctrl [-h|--help] [-r ROLE|--role ROLE] \
              startup|shutdown|restart|start|stop|defib|peek|status \
