@@ -27,11 +27,10 @@ stop gausswait
     - Arguments \$1 and \$2 are -n and 1, and are ignored
 
 ## Startup
+
 ### Step 1
 ![00startup](zzimages/00startup.png)
 ### Step 2
-![00startup](zzimages/00startup.png)
-### Step 3
 ![01startup](zzimages/01startup.png)
 
 ## Uncontrolled Hexbeater crash
