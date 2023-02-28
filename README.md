@@ -2,6 +2,13 @@
 
 ## Caveats
 
+- The MAGAOX_ROLE environment variable for this demo is ```gauss```
+  - The contents of  ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt are:
+
+    aaaa gausswait2
+    bbbb gausswait
+    stop gausswait
+
 - "INDI driver" devices are actually test application gausswait:
   - The gausswait.cpp application resides in ```/apps/resurrector/test/```
   - The gausswait executable binaries reside in ```/opt/MagAOX/bin/``` as hard-links gausswait and gauss
@@ -14,7 +21,8 @@
 - The ```logdump``` command for this demo, used by the ```peek``` verb of ```resuctrl```, has been hijacked by a bash script in ~/bin/
   - which script is a wrapper for ```tail -n 10 /opt/MagAOX/sys/$3/outputs```
     - see comment above regarding STDOUT and STDERR
-    - $3 is the third argument to logdump; $1 and $2 are -n and 1, and are ignored
+    - The third argument, $3, to the logdump command is the "INDI driver" device name, from the first column of ```/opt/MagAOX/config/proclist_${MAGAOX_ROLE).txt
+    - Arguments $1 and $2 are -n and 1, and are ignored
 
 ## Startup
 
