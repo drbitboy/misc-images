@@ -115,3 +115,10 @@ optional arguments:
 ![11uncontrolled-resurrector_indi-crash](zzimages/11uncontrolled-resurrector_indi-crash.png)
 ### Step 3
 ![12uncontrolled-resurrector_indi-crash](zzimages/12uncontrolled-resurrector_indi-crash.png)
+
+## Defibrillate Hexbeater
+
+### Step 1
+![13defibrillate-hexbeater](zzimages/13defibrillate-hexbeater.png)
+### Step 2
+![14defibrillate-hexbeater](zzimages/14defibrillate.png)
