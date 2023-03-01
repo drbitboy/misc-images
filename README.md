@@ -121,4 +121,4 @@ optional arguments:
 ### Step 1
 ![13defibrillate-hexbeater](zzimages/13defibrillate-hexbeater.png)
 ### Step 2
-![14defibrillate-hexbeater](zzimages/14defibrillate.png)
+![14defibrillate-hexbeater](zzimages/14defibrillate-hexbeater.png)
